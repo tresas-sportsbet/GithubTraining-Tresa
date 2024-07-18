@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
-        uses: tresas-sportsbet/hello-world-docker-action-tresan@v1
+        uses: tresas-sportsbet/hello-world-docker-action-tresa@v1
         with:
           who-to-greet: '@tresas-sportsbet'
