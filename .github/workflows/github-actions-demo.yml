@@ -51,7 +51,7 @@ jobs:
     needs: [Test, Load-Test]
     environment:
       name: Production
-      url: https://writeabout.net
+      url: https://github.com/tresas-sportsbet/GithubTraining-Tresa/settings/environments/3453499020/edithttps://writeabout.net
     if: github.event.inputs.environment == 'Production'
     steps:
       - run: |
